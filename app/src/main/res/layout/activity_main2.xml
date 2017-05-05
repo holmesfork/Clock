@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.holmesk.clock.Main2Activity">
+
+
+    <TextView
+        android:id="@+id/showtime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="现在是"
+        android:textSize="30sp"/>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:clock="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ec29ef"
+    tools:context="com.example.holmesk.clock.MainActivity">
+
+    <com.example.holmesk.clock.view.ClockView
+        android:id="@+id/aa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        clock:bordercolor="@android:color/holo_red_light"
+        clock:borderwidth="10dp"
+        clock:hourcolor="@android:color/black"
+        clock:minutecolor="@android:color/black"
+        clock:numcolor="@android:color/darker_gray"
+        clock:numsize="16sp"
+        clock:pointcolor="@android:color/holo_green_dark"
+        clock:secondcolor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/my_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="100dp"
+        android:text="星期"
+        android:textSize="25sp"/>
+
+</RelativeLayout>
